@@ -21,6 +21,11 @@
 	</form>
 	<br>
 	<p>JSTL SP Standard Tag Library</p>
+	<hr>
+	
+	
+	<p><a href="Pagniation?page=1">View Employees</a></p>
+	<p><a href="ajax1.jsp">Ajax Example1</a></p>
 	
 </body>
 </html>
