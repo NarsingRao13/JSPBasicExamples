@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<book>
+		<title>Every day Indian</title>
+		<author>Rao</author>
+		<year>2005</year>
+		<price>12</price>
+	</book>
+</bookstore>

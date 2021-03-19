@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+</head>
+<body>
+	<p id="par"></p>
+</body>
+
+<script type="text/javascript">
+	var text, parser, xmlDoc;
+	var text = "<bookstore><book>" + "<title>Every day Indian</title>"
+			+ "<author>Rao</author>" + "<year>2005</year>"
+			+ "<price>12</price>" + "</book>" + "</bookstore>";
+	parser = new DOMParser();
+	xmlDoc = parser.parseFromString(text, "text/html");
+	document.getElementById("par").innerHTML = xmlDoc
+			.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+</script>
+</html>
